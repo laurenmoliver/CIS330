@@ -1,18 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FFL", "..\..\..\stuff\FFL\", "{9A8E2FDF-519B-435C-AD92-CC15010F68CE}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FFL", "..\..\..\stuff\trunk\FFL\", "{9A8E2FDF-519B-435C-AD92-CC15010F68CE}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/FFL"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\stuff\FFL\"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\stuff\trunk\FFL\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\FFL\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/FFL"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\stuff\FFL\"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\stuff\trunk\FFL\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\FFL\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
