@@ -29,7 +29,6 @@
                 <asp:Label runat="server" ID="Label1">Listings</asp:Label>
             </tr>
         </table>
-
     </div>
     </form>
 </body>
