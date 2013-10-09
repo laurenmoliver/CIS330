@@ -1,4 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="home.aspx.cs" Inherits="fflHome" %>
+<%@  Register TagPrefix="uc" TagName="NavBarTop" Src="~/UserControls/NavBarTop.ascx" %>
+<%@ Register TagPrefix="uc1" TagName="Header" Src="~/UserControls/Header.ascx" %>
 
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
