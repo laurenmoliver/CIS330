@@ -11,4 +11,8 @@ public partial class fflHome : System.Web.UI.Page
     {
 
     }
+    protected void btnSearchSubmit_Click(object sender, EventArgs e)
+    {
+        Page.Response.Redirect("/listing.aspx?");
+    }
 }

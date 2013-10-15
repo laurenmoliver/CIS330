@@ -11,4 +11,8 @@ public partial class listing : System.Web.UI.Page
     {
 
     }
+    protected void btnSearchReSubmit_Click(object sender, EventArgs e)
+    {
+        Page.Response.Redirect("/listing.aspx?");
+    }
 }
