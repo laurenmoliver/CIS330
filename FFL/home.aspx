@@ -8,7 +8,7 @@
     <title>Flagstaff FoodLink</title>
 <%--    <link type="text/css" href="GlobalComponents/bootstrap-responsive.min.css" rel="Stylesheet" />
     <link type="text/css" href="GlobalComponents/bootstrap-responsive.css" rel="Stylesheet" />--%>
-    <link type="text/javascript" href="GlobalComponents/bootstrap.js" />
+    <link type="text/javascript" href="GlobalComponents/bootstrap-carousel.js" />
     <link type="text/css" href="GlobalComponents/bootstrap.css" rel="Stylesheet" />
     <link type="text/css" href="GlobalComponents/bootstrap.min.css" rel="Stylesheet" />
 </head>
@@ -65,13 +65,23 @@
                 </form>
             </div>
             <!-- try carousel -->
-            <div class="span7 carousel pull-right">
-                <div class="carousel-inner">
-                    <div class="item></div>
-                    <div class="item></div>
+            <script type="text/javascript" language="javascript">
+                $('.carousel').carousel()(
+                {
+                internal: 2000
+                })
+            </script>
+            <div class="span7 columns">
+                <div id="myCarousel" class="span7 carousel pull-right slide">
+                    <div class="carousel-inner">
+                        <div class="item active"><img src="GlobalComponents/images/FlagFoodLinkApples.jpg" alt/></div>
+                        <div class="item"><img src="GlobalComponents/images/FlagFoodLinkGardenSpace.jpg" alt/></div>
+    <%--                    <div class="item><img src="GlobalComponents/images/FlagFoodLinkApples.jpg" /></div>
+                        <div class="item><img src="GlobalComponents/images/FlagFoodLinkApples.jpg" /></div>--%>
+                    </div>
+                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
                 </div>
-                <a class="carousel-control left" href="#myCarousel" data-slid="prev"></a>
-                <a class="carousel-control right" href="#myCarousel" data-slid="next"></a>
             </div>
             <!-- end carousel -->
         </div>

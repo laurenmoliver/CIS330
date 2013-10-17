@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="listing.aspx.cs" Inherits="listing" %>
+<%@ Register TagName="NavBar" TagPrefix="uc1" Src="~/UserControls/NavBarTop.ascx" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -12,33 +13,10 @@
 </head>
 <body>
     <div class="container">
-    <!--header-->
-    <!--start nav bar -->
-        <div class="row span12">    
-            <div class="navbar">
-                <div class="navbar-inner">
-                    <div class="container">
-                        <div class="nav-collapse">
-                            <ul class="nav">
-                                <li><a href="#">For Sale</a></li>
-                                <li><a href="#">To Rent</a></li>    
-                                <li><a href="#">New Gardens</a></li>
-                                <li><a href="#">Garden of the Day</a></li>   
-                            </ul>
-                            <ul class="nav pull-right">
-                                <li><a href="#">Login</a></li>
-                                <li><a href="#">Register</a></li>    
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Nav -->
+    <uc1:NavBar ID="navBar" runat="server" />
         <form id="Form1" class="form" runat="server">
         <div class="row">
             <div class="span4 well lform">
-
                     <fieldset>
                         <div class="row">
                             <div class="span4">
