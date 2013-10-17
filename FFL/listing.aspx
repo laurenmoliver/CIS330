@@ -63,15 +63,16 @@
                     </fieldset>                
             </div>
             <!-- End of Side form search -->  
+        <div class="row">
+            <div class="span4">
+                <asp:GridView CssClass="table table-hover table-stripped"  ID="gvList" runat="server" ></asp:GridView>
+            </div>
+        </div>
         </div>
         <div class="row span4 pull-left">
             <img src="GlobalComponents/images/GoogleMapsPlaceholder.JPG" alt />
         </div> 
-    <div class="row">
-        <div class="span4">
-            <asp:GridView AlternatingRowStyle-BackColor="Gray" ID="gvList" runat="server" ></asp:GridView>
-        </div>
-    </div>
+
     </form>
     </div>
 </body>
